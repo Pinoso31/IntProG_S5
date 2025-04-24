@@ -14,7 +14,10 @@ fecha_actual = dt.datetime.now()
 contar_dias = (fecha_actual - inicio_sesion).days
 
 if contar_dias > 30:
-    print("Estás perdido en el tiempo 😵")
+
+    print("Estás perdido en el tiempo ")
+
 else:
-    print("¡Tamos activo, papi! 🔥")
+
+    print("¡Tamos activo, papi! ")
 

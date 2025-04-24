@@ -5,7 +5,11 @@
 calificacion = float(input("Ingrese la calificación del estudiante: "))
 
 if 0 <= calificacion <= 100:
+
     if calificacion >= 70:
+
         print("OSHEE, estás aprobado...otro level.")
+        
     else:
+
         print("JAJAJA, estás reprobado mongolo.")

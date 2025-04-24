@@ -9,5 +9,5 @@ votacion = int(input("Hola, buenos dias, ¿cuántos años tienes? "))
 if votacion >= 18:
     print("Muy bien, ya tenes cédula de identidad, puedes votar")
 else:
-    print("Mongolo, no puedes votar, no tienes cédula de identidad")
+    print("No puedes votar, no tienes cédula de identidad")
 print("--------------------------------------------------")
